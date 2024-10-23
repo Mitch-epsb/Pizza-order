@@ -6,12 +6,12 @@
 // - The inner HTM of the anchor <a> is: here
 //2. Sets the content of an HTML element
 
-// document.getElementById("btn").addEventListener("click", showContent);
+document.getElementById("btn").addEventListener("click", showContent);
 
-// function showContent() {
-//   document.getElementById("greet").innerHTML = "Welcome to my Pizzaria";
-// }
-// let top1content = document.getElementById("btn").addEventListener("click", showContent);
+function showContent() {
+  document.getElementById("greet").innerHTML = "Welcome to my Pizzaria";
+}
+let top1content = document.getElementById("btn").addEventListener("click", showContent);
 
 // Value command: retrieves the content of an <input> element.
 //      *IMPORTANT* value command should always be used within a
